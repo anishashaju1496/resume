@@ -1,0 +1,104 @@
+.name {
+  margin-top: 0.30em;
+  margin-bottom: 0.30em;
+}
+
+.email {
+  color: green;
+  font-size: .98em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+.phone {
+  color: grey;
+  font-size: .98em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+.introduction {
+  border-style: solid;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  text-align: center;
+  width: 15%;
+}
+
+hr {
+  border-style: solid;
+}
+
+.experience {
+  border-style: solid;
+  border-left-style: dotted;
+  padding-left: 20px;
+  border-color: black;
+  border-left-color: #dfddc7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exp {
+  width: 25%;
+}
+
+.resp {
+  color: grey;
+  font-weight: bold;
+}
+
+.education {
+  border-style: solid;
+  border-left-style: dotted;
+  border-color: black;
+  border-left-color: #dfddc7;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.edu {
+  width: 25%;
+}
+
+.skills {
+  border-style: solid;
+  border-left-style: dotted;
+  border-color: black;
+  border-left-color: #dfddc7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tecskills {
+  width: 25%;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "\2022";
+  color: #4d4646;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.green {
+  background-color: inherit;
+  color: green;
+}
+
+.grey {
+  background-color: inherit;
+  color: grey;
+}
